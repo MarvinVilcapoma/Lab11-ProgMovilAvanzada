@@ -2,8 +2,8 @@
 # App de Mapa utilizando el Framework: Mapkit
 
 Desarrollador por:
-Vilcapoma Flores Friman
-Arevalo Sermeño Edwin
+* Vilcapoma Flores Friman
+* Arevalo Sermeño Edwin
 
 ## Standard:
 ![Standard](https://user-images.githubusercontent.com/54334317/84302458-ed7b4680-ab1a-11ea-8233-d42ad614e51c.png)
