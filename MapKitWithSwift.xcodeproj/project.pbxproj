@@ -12,6 +12,7 @@
 		7DDD4D4224914E560010D081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDD4D4024914E560010D081 /* Main.storyboard */; };
 		7DDD4D4424914E570010D081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDD4D4324914E570010D081 /* Assets.xcassets */; };
 		7DDD4D4724914E570010D081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDD4D4524914E570010D081 /* LaunchScreen.storyboard */; };
+		7DDD4D50249150580010D081 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDD4D4F249150580010D081 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7DDD4D4324914E570010D081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DDD4D4624914E570010D081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DDD4D4824914E570010D081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDD4D4F249150580010D081 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDD4D50249150580010D081 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				7DDD4D3B24914E560010D081 /* MapKitWithSwift */,
 				7DDD4D3A24914E560010D081 /* Products */,
+				7DDD4D4E249150580010D081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				7DDD4D4824914E570010D081 /* Info.plist */,
 			);
 			path = MapKitWithSwift;
+			sourceTree = "<group>";
+		};
+		7DDD4D4E249150580010D081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DDD4D4F249150580010D081 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
